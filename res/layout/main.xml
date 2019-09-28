@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/rlMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/ivMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:src="@drawable/help_bg"/>
+
+    <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14f0d8baba5b7e"
+        ads:loadAdOnCreate="true"
+        ads:refreshInterval="30" />
+
+    <TextView
+        android:id="@+id/tvPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#60000000"
+        android:gravity="center"
+        android:text="@string/preview"
+        android:textColor="#a0ffffff"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/rlButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10" >
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Prev" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Next" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/tvRate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Please rate us it's realy help our project!"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:textStyle="bold" android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes please" />
+
+        <Button
+            android:id="@+id/btnLater"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="I rate later" />
+
+    </LinearLayout>
+
+</RelativeLayout>

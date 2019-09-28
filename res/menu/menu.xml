@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/category"
+        android:title="Category">
+<menu >
+
+            <item
+                android:id="@+id/cat_19"
+                android:title="Advertising"/>
+
+            <item
+                android:id="@+id/cat_8"
+                android:title="Animals"/>
+
+            <item
+                android:id="@+id/cat_82"
+                android:title="Architecture"/>
+
+            <item
+                android:id="@+id/cat_80"
+                android:title="Children"/>
+
+            <item
+                android:id="@+id/cat_7"
+                android:title="City"/>
+
+            <item
+                android:id="@+id/cat_12"
+                android:title="Genre"/>
+
+            <item
+                android:id="@+id/cat_18"
+                android:title="Glamour"/>
+
+            <item
+                android:id="@+id/cat_11"
+                android:title="Humor"/>
+
+            <item
+                android:id="@+id/cat_5"
+                android:title="Macro"/>
+
+            <item
+                android:id="@+id/cat_78"
+                android:title="Mobile"/>
+
+            <item
+                android:id="@+id/cat_87"
+                android:title="Models"/>
+
+            <item
+                android:id="@+id/cat_13"
+                android:title="Museum"/>
+
+            <item
+                android:id="@+id/cat_3"
+                android:title="Nature"/>
+
+            <item
+                android:id="@+id/cat_15"
+                android:title="Nude"/>
+
+            <item
+                android:id="@+id/cat_16"
+                android:title="Other"/>
+
+            <item
+                android:id="@+id/cat_27"
+                android:title="Paparazzi"/>
+
+            <item
+                android:id="@+id/cat_64"
+                android:title="Photo hunt"/>
+
+            <item
+                android:id="@+id/cat_14"
+                android:title="Photoshop"/>
+
+            <item
+                android:id="@+id/cat_2"
+                android:title="Portret"/>
+
+            <item
+                android:id="@+id/cat_9"
+                android:title="Report"/>
+
+            <item
+                android:id="@+id/cat_10"
+                android:title="Sport"/>
+
+            <item
+                android:id="@+id/cat_4"
+                android:title="Still life"/>
+
+            <item
+                android:id="@+id/cat_92"
+                android:title="Techno"/>
+
+            <item
+                android:id="@+id/cat_6"
+                android:title="Travel"/>
+
+            <item
+                android:id="@+id/cat_65"
+                android:title="Underwater"/>
+
+            <item
+                android:id="@+id/cat_91"
+                android:title="Wedding"/>
+        </menu></item>
+
+    <item
+        android:id="@+id/wallpaper"
+        android:title="Set as wallpaper"/>
+
+    <item
+        android:id="@+id/clear"
+        android:title="Clear cache"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>
